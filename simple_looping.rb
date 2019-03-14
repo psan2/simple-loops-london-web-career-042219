@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
   loop
     phrase = "Welcome to Flatiron School's Web Development Course!"
     i =+ 1
-    break if i == 7
+    break if i == number_of_times
   end
 end
 
